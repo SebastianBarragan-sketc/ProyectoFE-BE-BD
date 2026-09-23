@@ -1,6 +1,6 @@
 // Componente Ventas
 import { useEffect, useState } from 'react';
-import api from '../Services/api';
+import api from '../services/api';
 
 function Ventas() {
     const [ventas, setVentas] = useState([]);
